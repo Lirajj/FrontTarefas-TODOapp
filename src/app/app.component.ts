@@ -1,3 +1,4 @@
+import { TestBed } from '@angular/core/testing';
 import { Component } from '@angular/core';
 import { Tarefa } from "./tarefa";
 import { HttpClient } from '@angular/common/http';
@@ -6,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
  templateUrl: './app.component.html',
  styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
  title = 'TODOapp';
  arrayDeTarefas: Tarefa[] = [];
